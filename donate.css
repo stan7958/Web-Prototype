@@ -1,0 +1,127 @@
+{
+  margin:auto%;
+  padding:auto;
+  box-sizing:border-box;
+}
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 8vh;
+  background-color: green;
+  font-family:'Times', 'Arial Narrow', Arial, sans-serif;
+}
+.logo{
+  color: green;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size:25px;
+}
+.nav-links{
+  display: flex;
+  justify-content: space-around;
+  width: 60%;
+}
+.nav-links li{
+  list-style:none;
+}
+.nav-links a{
+  colour: green;
+  text-decoration:none;
+  letter-spacing: 5px;
+  font-weight:bold;
+  font-size:20px;
+}
+
+.footer{
+  width:100%;
+  height:auto;
+  bottom:0;
+  z-index:1;
+  background-color: green;
+  color:white;
+  display: flex;
+  justify-content:center;
+  flex-wrap:wrap;
+  margin:0 auto;
+}
+.footer-heading{
+  display: flex;
+  flex-direction:column;
+  margin-right:4rem;
+  }
+
+.footer-heading a{
+  color:white;
+  text-decoration:none;
+  margin-bottom: 0.5rem;
+}
+.footer-heading a:hover{
+  color:red;
+  transition:0.3s ease-out;
+}
+.info-form h2{
+margin-bottom:2rem;
+}
+#membership-register{
+  width:300px;
+  height:50px;
+  border-radius:4px;
+  outline:none;
+  border:none;
+  padding-left:0.5rem;
+  font-size:1rem;
+  margin-bottom:1rem;
+}
+#join-us-as-a-member::placeholder{
+  color: gray;
+}
+#membership register sign up{
+  width:100px;
+  height:40px;
+  border-radius:4px;
+  background-color:#F9423D;
+  outline:none;
+  border:none;
+  color:white;
+  font-size:1rem;
+}
+#Join-us-as-a-member:hover{
+  cursor: pointer;
+  background-color:deepskyblue;
+  transition:all 0.4s ease-out;
+}
+.body{
+  overflow:scroll;
+}
+body{
+  background-color: whitesmoke; 
+}
+
+.banner{
+  position: relative;;
+  width:90;
+  margin:0 auto;
+}
+.banner img{
+  width:100%;
+}
+.heading1{
+  color:white;
+  position: absolute;
+  left:45%;
+  top:0%;
+  width:40%;
+  text-align: right;
+  font-size:40px;
+  text-shadow:5px 10px 10px green;
+}
+.heading2{
+  color:white;
+  position: absolute;
+  left:45%;
+  top:20%;
+  width:40%;
+  text-align: right;
+  font-size:17px;
+  text-shadow:5px 5px 10px green;
